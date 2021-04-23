@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Proyecto 4/css/forms.css">
+</head>
+<body>
+    <div class="descuentos">
+        <p>20% de descuento en todos los productos</p>
+    </div>
+    <header>
+        <img class="tienda" src="/Proyecto 4/img/OBJECTS.png">
+        <h1> Nombre Tienda </h1>
+    </header>
+    <main>
+        <div class="mas">
+            <form action="index.html" method="GET">
+                <h2>Añadí tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+                <div class="campos1">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="" required>
+                    <label for="nacimiento">Fecha de Nacimiento</label>
+                    <input type="date" id="nacimiento" name="nacimiento">
+                    <textarea name="comentario" id="comentario"></textarea>
+                </div>
+                <div class="campos2">
+                    <label for="especie">Especie</label>
+                    <select class="especie" type="" id="Especie" name="especie" required>
+                        <option value="" selected disabled hidden>Especie</option>
+                        <option value="Especie">Ciborg</option>
+                        <option value="Especie">Muercielago</option>
+                        <option value="Especie">Humano</option>
+                    </select>
+                    <label for="foto">Agregar foto</label>
+                    <input type="file" id="foto" accept=".jpg , .png, .pdf">
+
+
+
+
+
+
+
+                </div>
+        </div>
+</body>
+</html>
+
+
+
+//form+h3+p+(fieldset>((label+input)*2+textarea))+fieldset>(label+(select>option*4)+(label+input)+(label+input*4)+hr+(label+input*2))//
